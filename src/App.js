@@ -39,7 +39,7 @@ export default function App() {
       <div
         style={{
           paddingBottom: "1rem",
-          fontSize: "1.8rem",
+          fontSize: "1.5rem",
           fontWeight: "bolder",
           letterSpacing: "0.1rem",
           color: "green"
