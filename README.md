@@ -8,4 +8,4 @@ A simple and quick app to check whether the entered number is a prime number or 
 > - HTML
 > - vanillla CSS
 
-** Simple, yet quick **
+**Simple, yet quick**
