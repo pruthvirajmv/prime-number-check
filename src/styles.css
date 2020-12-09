@@ -1,19 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
 .App {
-  font-family: cursive;
+  font-family: "JetBrains Mono", monospace;
   text-align: center;
   color: blueviolet;
-  background: whitesmoke;
+  background: rgb(14, 13, 13);
   max-width: 600px;
   width: 70%;
-  height: 100%;
   margin: auto;
-  margin-top: 3rem;
+  margin-top: 1rem;
   margin-bottom: 3rem;
-  opacity: 0.8;
+  opacity: 0.9;
   border-radius: 1rem;
-  letter-spacing: 0.1rem;
   padding: 0.2rem 0.5rem;
 }
 
