@@ -35,8 +35,18 @@ export default function App() {
   return (
     <div className="App">
       <h1>prime number check</h1>
-      <h3>Enter number to check prime or not</h3>
 
+      <div
+        style={{
+          paddingBottom: "1rem",
+          fontSize: "1.8rem",
+          fontWeight: "bolder",
+          letterSpacing: "0.1rem",
+          color: "green"
+        }}
+      >
+        {output}
+      </div>
       <input
         style={{
           fontFamily: "inherit",
@@ -47,21 +57,10 @@ export default function App() {
         }}
         onChange={primeNumberCheck}
       />
-      <div
-        style={{
-          paddingTop: "1rem",
-          fontSize: "1.8rem",
-          fontWeight: "bolder",
-          letterSpacing: "0.1rem",
-          color: "green"
-        }}
-      >
-        {output}
-      </div>
+      <h2>Enter number to check prime or not</h2>
       <p>Note: prime numbers are greater than 1</p>
-      <h4> Hope you enjoyed this quick and simple web app </h4>
-      <h5>
-        hit
+      <h4>
+        enjoyed the app? hit
         <a
           style={{ textDecoration: "none", color: "orange" }}
           href="https://pruthvirajmv.netlify.app/projects.html"
@@ -70,7 +69,7 @@ export default function App() {
           iampruthviraj
         </a>{" "}
         to see more projects
-      </h5>
+      </h4>
     </div>
   );
 }
