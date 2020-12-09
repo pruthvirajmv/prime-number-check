@@ -1,4 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
 .App {
-  font-family: sans-serif;
+  font-family: cursive;
   text-align: center;
+  color: blueviolet;
+  background: whitesmoke;
+  max-width: 600px;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  opacity: 0.8;
+  border-radius: 1rem;
+  letter-spacing: 0.1rem;
+  padding: 0.2rem 0.5rem;
+}
+
+body {
+  display: block;
+  background-image: url("/numbers.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
